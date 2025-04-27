@@ -183,6 +183,25 @@
                 font-size: 1rem;
             }
         }
+        .back-home-btn {
+    display: block;
+    margin-top: 32px;
+    color: #aaaaaa;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: 1px solid #aaaaaa;
+    transition: all 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.6s ease forwards 0.8s;
+}
+
+.back-home-btn:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
     </style>
 </head>
 <body>
@@ -197,7 +216,8 @@
             <a href="https://github.com/XHJXHJXHJXHJ/DayDrop" class="secondary-link">Github</a>
             <a href="https://www.magicalapk.com/app/share/app?id=33382" class="secondary-link">应用乐园</a>
         </div>
-    </section>    
+    </section>   
+    <a href="https://gitxhj.github.io/" class="back-home-btn">返回主页</a>
     <script>
         const subtitle = document.querySelector('.hero-subtitle');
         const expandBtn = document.querySelector('.expand-btn');
